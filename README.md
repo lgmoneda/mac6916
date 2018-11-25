@@ -1,13 +1,13 @@
 # mac6916
 
-#### Python environment
+## Python environment
 
 Creating an environment from the `environment.yml` file:
 ```
 conda env create -f environment.yml
 ```
 
-#### Bayes Ball
+## Bayes Ball
 
 Just run `python bayes-ball/bayes_ball.py`.
 
@@ -31,7 +31,7 @@ check_dseparation(A, L, [E], network)
 
 It checks if A and L are d-separated given E.
 
-#### Markov Partition
+## Markov Partition
 
 Run:
 
