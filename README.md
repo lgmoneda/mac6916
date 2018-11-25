@@ -2,9 +2,9 @@
 
 ## Index
 
-1. [Python Environment](python-environment)
-2. [Bayes Ball (L3Q4)](bayes-ball)
-3. [Markov Partition (L4Q3)](markov-partition)
+1. [Python Environment](#python-environment)
+2. [Bayes Ball (L3Q4)](#bayes-ball)
+3. [Markov Partition (L4Q3)](#markov-partition)
 
 ## Python environment
 
