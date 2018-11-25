@@ -81,8 +81,8 @@ def markov_partition(markov_network):
             ### Check if the clique is maximal
             ### If not, don't consider it
             ### For now, it only excludes singletons
-            # if len(markov_network["cliques"][c]["vars"]) == 1:
-            #     continue
+            if len(markov_network["cliques"][c]["vars"]) == 1:
+                continue
 
             ### Consider only variables present at the considered clique
             reduced_evidence = itemgetter(*markov_network["cliques"][c]["vars"])(evidence)
