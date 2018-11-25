@@ -30,3 +30,36 @@ check_dseparation(A, L, [E], network)
 ```
 
 It checks if A and L are d-separated given E.
+
+#### Markov Partition
+
+Run:
+
+``` 1c-enterprise
+python markov/markov.py misconception.uai
+```
+
+The `misconception.uai` file comes from an example from this [book](### http://www.cs.cmu.edu/~epxing/Class/10708-13/reading/Ch%204.pdf). The partition result match the one in the book (page 105, figure 4.2 legend).
+
+The example given pic 2011] is on the `problem.uai` file.
+
+An example of bayesian network encoded by the undirected graph can be found on the `bayesian.uai` file:
+
+Structure: B <- A -> C
+
+| A        | P(A)           |
+| ------------- |:-------------:|
+| 0      | 0.4 |
+| 1      | 0.6      |
+
+| A        | P(A)           |
+| ------------- |:-------------:|
+| 0      | 0.4 |
+| 1      | 0.6      |
+
+| A             | B               | P(B \| A) | P(A, B)|
+| ------------- | :-------------: |:---:|:---:|
+| 0             | 0.4             | 0.4 |    |
+| 1             | 0.6             | 0.3 |    |
+| 1             | 0.6             | 0.3 |    |
+| 1             | 0.6             | 0.3 |    |
